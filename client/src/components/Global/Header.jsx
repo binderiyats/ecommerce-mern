@@ -6,12 +6,12 @@ import { BiUser } from "react-icons/bi";
 export const Header = () => {
   return (
     <div>
-      <div className="w-full max-w-[1440px] flex justify-between items-center mx-auto text-[#292D32] text-[14px] h-[74px] font-light px-4">
+      <div className="w-full max-w-[1440px] flex justify-between items-center mx-auto h-[74px] px-4 text-[#292D32] font-[400] text-[14px]">
         <p>Need help? Call us: (+98) 0234 5678 9012</p>
         <div className="flex w-[230px] justify-between ">
           <div className="flex justify-between items-center gap-2">
             <HiOutlineLocationMarker size={20} />
-            <p>Our store</p>
+            <p className="">Our store</p>
           </div>
           <div className="flex justify-between items-center gap-2">
             <HiOutlineTruck size={20} />
@@ -33,7 +33,7 @@ export const Header = () => {
             </button>
           </div>
           <div className="text-white flex justify-between gap-5 items-center mr-[40px]">
-            <div className="flex justify-between gap-2">
+            <div className="flex justify-between items-center gap-2">
               <BiUser size={20} />
               <p>Sign in</p>
             </div>
